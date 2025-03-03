@@ -206,12 +206,12 @@ function ENT:Couple(ent)
         ent.CouplingPointOffset,
         0, --forcelimit
         0, --torquelimit
-        -25, --xmin
-        -10, --ymin
-        -25, --zmin
-        25, --xmax
-        10, --ymax
-        25, --zmax
+        -45, --xmin
+        -45, --ymin
+        -45, --zmin
+        45, --xmax
+        45, --ymax
+        45, --zmax
         0, --xfric
         0, --yfric
         0, --zfric
