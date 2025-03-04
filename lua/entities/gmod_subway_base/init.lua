@@ -1137,15 +1137,15 @@ function ENT:CreateCouple(pos,ang,forward,typ)
             Vector(0,0,0),
             1, --forcelimit
             1, --torquelimit
-            -2, --xmin
-            -2, --ymin
-            -15, --zmin
-            2, --xmax
-            2, --ymax
-            15, --zmax
-            0.1, --xfric
-            0.1, --yfric
-            1, --zfric
+            -7, --xmin
+            -7, --ymin
+            -45, --zmin
+            7, --xmax
+            7, --ymax
+            45, --zmax
+            100, --xfric
+            100, --yfric
+            0, --zfric
             0, --rotonly
             1 --nocollide
         )
