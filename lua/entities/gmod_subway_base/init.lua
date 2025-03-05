@@ -1143,8 +1143,8 @@ function ENT:CreateCouple(pos,ang,forward,typ)
             7, --xmax
             7, --ymax
             45, --zmax
-            100, --xfric
-            100, --yfric
+            0, --xfric
+            0, --yfric
             0, --zfric
             0, --rotonly
             1 --nocollide
